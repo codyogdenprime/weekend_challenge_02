@@ -1,0 +1,89 @@
+{
+  "students": [
+    {
+      "first_name": "Will",
+      "last_name": "Cruzen",
+      "info": "aka Mr. 5/4"
+    },
+    {
+      "first_name": "Ian",
+      "last_name": "Coldwater",
+      "info": "is super supportive of her kids"
+    },
+    {
+      "first_name": "Luis",
+      "last_name": "Matos",
+      "info": "has many, many voices"
+    },
+    {
+      "first_name": "Brent",
+      "last_name": "Reno",
+      "info": "cherishes his Jordans"
+    },
+    {
+      "first_name": "Ben",
+      "last_name": "Mahowald",
+      "info": "basketball toenail"
+    },
+    {
+      "first_name": "Matthew",
+      "last_name": "Callahan",
+      "info": "loves his Millenium Falcon truck"
+    },
+    {
+      "first_name": "Jazzy",
+      "last_name": "Cordaro",
+      "info": "make things even, please..."
+    },
+    {
+      "first_name": "Debbie",
+      "last_name": "Baran",
+      "info": "NASA fan"
+    },
+    {
+      "first_name": "Ben",
+      "last_name": "Johnson",
+      "info": "karate chops air when working hard"
+    },
+    {
+      "first_name": "Lisa",
+      "last_name": "Cook",
+      "info": "meow"
+    },
+    {
+      "first_name": "Cody",
+      "last_name": "Ogden",
+      "info": "hates cats other than his three"
+    },
+    {
+      "first_name": "John",
+      "last_name": "Arkema",
+      "info": "Has forgotten French"
+    },
+    {
+      "first_name": "Johanna",
+      "last_name": "Snow",
+      "info": "literal tree hugger when drunk"
+    },
+    {
+      "first_name": "Matt",
+      "last_name": "Steinbergs",
+      "info": "Majored in Philosophy, but insists he isn't an asshole"
+    },
+    {
+      "first_name": "Nate",
+      "last_name": "Biessener",
+      "info": "prefers the story to the truth"
+    },
+    {
+      "first_name": "Justin",
+      "last_name": "O'Connor",
+      "info": "Worries more about stuffed animals than human children"
+    },
+    {
+      "first_name": "Ross",
+      "last_name": "Gravern",
+      "info": "doesn't like coffee"
+    }
+  ]
+}
