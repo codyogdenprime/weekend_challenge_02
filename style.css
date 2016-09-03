@@ -1,0 +1,32 @@
+body {
+	max-width: 60em;
+	margin: 0 auto;
+}
+
+button {
+	border: none;
+	background-color: #FFF;
+}
+
+.buttonsContainer {
+	font-size: .8em;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-flow: column wrap;
+}
+.prev {
+	order: -2;
+}
+.next {
+	order: -1;
+}
+
+#student-info {
+	min-height: 3em;
+}
+
+.current-person {
+	background-color: blue;
+}
