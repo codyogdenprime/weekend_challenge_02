@@ -124,7 +124,7 @@ $("#studentInfo").html( $("#student-" + view.current() ).data("info") );
 var view = new viewHandler();
 
 // Timer Variable
-var timer = setInterval( view.next, 2000 );
+var timer = setInterval( view.next, 10000 );
 
 // Reset Timer Function
 var resetTimer = function () {
@@ -132,7 +132,7 @@ var resetTimer = function () {
 	clearInterval( timer );
 
 	// Reset the interval
-	timer = setInterval( view.next, 2000 );
+	timer = setInterval( view.next, 10000 );
 };
 
 $(document).ready( function () {
