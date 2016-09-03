@@ -112,12 +112,27 @@ var viewHandler = function () {
 
 // Display the person on the DOM
 var displayPerson = function () {
+
+	// Fade out the student info
 	$("#student-info").fadeOut();
-	$( "#person-current" ).html( view.current() + 1 );
-	$("#firstName").html( $("#student-" + view.current() ).data("first-name") );
-	$("#lastName").html( $("#student-" + view.current() ).data("last-name") );
-	$("#studentInfo").html( $("#student-" + view.current() ).data("info") );
-	$("#student-info").fadeIn();
+
+	// Promise the fadeOut is done then...
+	$("#student-info").promise().done( function() {
+		// ... update the current person number
+		$( "#person-current" ).html( view.current() + 1 );
+
+		// Update the first name`
+		$("#firstName").html( $("#student-" + view.current() ).data("first-name") );
+
+		// Update the last name
+		$("#lastName").html( $("#student-" + view.current() ).data("last-name") );
+
+		// Update the information
+		$("#studentInfo").html( $("#student-" + view.current() ).data("info") );
+
+		// Fade it in.
+		$( this ).fadeIn();
+	} );
 
 };
 
