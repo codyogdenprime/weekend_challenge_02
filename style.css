@@ -1,6 +1,7 @@
 body {
 	max-width: 60em;
 	margin: 0 auto;
+	padding: 0 0 0 100px;
 }
 
 button {
@@ -12,7 +13,7 @@ button {
 	font-size: .8em;
 	text-align: center;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	flex-flow: column wrap;
 }
@@ -29,4 +30,17 @@ button {
 
 .current-person {
 	background-color: blue;
+}
+
+.buttonsContainer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100px;
+}
+
+button {
+	outline: none;
+	width: 100%;
 }
