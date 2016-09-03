@@ -112,11 +112,12 @@ var viewHandler = function () {
 
 // Display the person on the DOM
 var displayPerson = function () {
+	$("#student-info").fadeOut();
 	$( "#person-current" ).html( view.current() + 1 );
-
-$("#firstName").html( $("#student-" + view.current() ).data("first-name") );
-$("#lastName").html( $("#student-" + view.current() ).data("last-name") );
-$("#studentInfo").html( $("#student-" + view.current() ).data("info") );
+	$("#firstName").html( $("#student-" + view.current() ).data("first-name") );
+	$("#lastName").html( $("#student-" + view.current() ).data("last-name") );
+	$("#studentInfo").html( $("#student-" + view.current() ).data("info") );
+	$("#student-info").fadeIn();
 
 };
 
@@ -175,6 +176,9 @@ $(document).ready( function () {
 
 		// Append the next button
 		container.append( nextBtn );
+
+		// Hide student-info container
+		$("#student-info").hide(0);
 
 		// Load the first student when the DOM is ready
 		$("#student-0").trigger( "click" );
