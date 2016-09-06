@@ -177,13 +177,13 @@ $(document).ready(function() {
 
             // Build a new button and add some stuff
             var button = $("<button />", { class: "studentButton" });
-            button.attr("id", "student-" + i);
-            button.data("index", i);
-            button.data("first-name", data.students[i].first_name);
-            button.data("last-name", data.students[i].last_name);
-            button.data("info", data.students[i].info);
-            button.html(data.students[i].first_name);
-            button.on("click", view.set);
+                button.attr("id", "student-" + i);
+                button.data("index", i);
+                button.data("first-name", data.students[i].first_name);
+                button.data("last-name", data.students[i].last_name);
+                button.data("info", data.students[i].info);
+                button.html(data.students[i].first_name);
+                button.on("click", view.set);
 
             // Add the button to the container
             container.append(button);
